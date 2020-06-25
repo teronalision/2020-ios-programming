@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1D53A6824A2C69200B67440 /* searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D53A6724A2C69200B67440 /* searching.swift */; };
+		A1D53A6A24A3C50000B67440 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D53A6924A3C50000B67440 /* WeatherViewController.swift */; };
+		A1D53A6C24A3CB1A00B67440 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D53A6B24A3CB1A00B67440 /* Weather.swift */; };
+		A1D53A6E24A3F3E000B67440 /* stardust.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D53A6D24A3F3E000B67440 /* stardust.swift */; };
+		A1D53A7024A3F71500B67440 /* particle.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D53A6F24A3F71400B67440 /* particle.png */; };
+		A1D53A7224A4511000B67440 /* PickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D53A7124A4511000B67440 /* PickViewController.swift */; };
+		A1F90AFC249361440015A7B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F90AFB249361440015A7B1 /* AppDelegate.swift */; };
+		A1F90AFE249361440015A7B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F90AFD249361440015A7B1 /* SceneDelegate.swift */; };
+		A1F90B00249361440015A7B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F90AFF249361440015A7B1 /* ViewController.swift */; };
+		A1F90B03249361440015A7B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F90B01249361440015A7B1 /* Main.storyboard */; };
+		A1F90B05249361470015A7B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F90B04249361470015A7B1 /* Assets.xcassets */; };
+		A1F90B08249361470015A7B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F90B06249361470015A7B1 /* LaunchScreen.storyboard */; };
+		A1F90B13249361470015A7B1 /* bikehikingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F90B12249361470015A7B1 /* bikehikingTests.swift */; };
+		A1F90B1E249361470015A7B1 /* bikehikingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F90B1D249361470015A7B1 /* bikehikingUITests.swift */; };
+		A1F90B2C24936BDB0015A7B1 /* HikingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F90B2B24936BDB0015A7B1 /* HikingTableViewController.swift */; };
+		A1F90B2E24937C850015A7B1 /* BikeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F90B2D24937C850015A7B1 /* BikeTableViewController.swift */; };
+		A1F90B302493868D0015A7B1 /* BikeDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F90B2F2493868D0015A7B1 /* BikeDetailTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1F90B0F249361470015A7B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F90AF0249361440015A7B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1F90AF7249361440015A7B1;
+			remoteInfo = bikehiking;
+		};
+		A1F90B1A249361470015A7B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F90AF0249361440015A7B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1F90AF7249361440015A7B1;
+			remoteInfo = bikehiking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1D53A6724A2C69200B67440 /* searching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searching.swift; sourceTree = "<group>"; };
+		A1D53A6924A3C50000B67440 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		A1D53A6B24A3CB1A00B67440 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		A1D53A6D24A3F3E000B67440 /* stardust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stardust.swift; sourceTree = "<group>"; };
+		A1D53A6F24A3F71400B67440 /* particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particle.png; sourceTree = "<group>"; };
+		A1D53A7124A4511000B67440 /* PickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickViewController.swift; sourceTree = "<group>"; };
+		A1F90AF8249361440015A7B1 /* bikehiking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bikehiking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F90AFB249361440015A7B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1F90AFD249361440015A7B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1F90AFF249361440015A7B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1F90B02249361440015A7B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1F90B04249361470015A7B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1F90B07249361470015A7B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1F90B09249361470015A7B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F90B0E249361470015A7B1 /* bikehikingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bikehikingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F90B12249361470015A7B1 /* bikehikingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bikehikingTests.swift; sourceTree = "<group>"; };
+		A1F90B14249361470015A7B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F90B19249361470015A7B1 /* bikehikingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bikehikingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F90B1D249361470015A7B1 /* bikehikingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bikehikingUITests.swift; sourceTree = "<group>"; };
+		A1F90B1F249361470015A7B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F90B2B24936BDB0015A7B1 /* HikingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingTableViewController.swift; sourceTree = "<group>"; };
+		A1F90B2D24937C850015A7B1 /* BikeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeTableViewController.swift; sourceTree = "<group>"; };
+		A1F90B2F2493868D0015A7B1 /* BikeDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeDetailTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1F90AF5249361440015A7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F90B0B249361470015A7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F90B16249361470015A7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1F90AEF249361440015A7B1 = {
+			isa = PBXGroup;
+			children = (
+				A1D53A7124A4511000B67440 /* PickViewController.swift */,
+				A1D53A6F24A3F71400B67440 /* particle.png */,
+				A1D53A6D24A3F3E000B67440 /* stardust.swift */,
+				A1D53A6B24A3CB1A00B67440 /* Weather.swift */,
+				A1D53A6924A3C50000B67440 /* WeatherViewController.swift */,
+				A1D53A6724A2C69200B67440 /* searching.swift */,
+				A1F90B2F2493868D0015A7B1 /* BikeDetailTableViewController.swift */,
+				A1F90B2D24937C850015A7B1 /* BikeTableViewController.swift */,
+				A1F90B2B24936BDB0015A7B1 /* HikingTableViewController.swift */,
+				A1F90AFA249361440015A7B1 /* bikehiking */,
+				A1F90B11249361470015A7B1 /* bikehikingTests */,
+				A1F90B1C249361470015A7B1 /* bikehikingUITests */,
+				A1F90AF9249361440015A7B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1F90AF9249361440015A7B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1F90AF8249361440015A7B1 /* bikehiking.app */,
+				A1F90B0E249361470015A7B1 /* bikehikingTests.xctest */,
+				A1F90B19249361470015A7B1 /* bikehikingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1F90AFA249361440015A7B1 /* bikehiking */ = {
+			isa = PBXGroup;
+			children = (
+				A1F90AFB249361440015A7B1 /* AppDelegate.swift */,
+				A1F90AFD249361440015A7B1 /* SceneDelegate.swift */,
+				A1F90AFF249361440015A7B1 /* ViewController.swift */,
+				A1F90B01249361440015A7B1 /* Main.storyboard */,
+				A1F90B04249361470015A7B1 /* Assets.xcassets */,
+				A1F90B06249361470015A7B1 /* LaunchScreen.storyboard */,
+				A1F90B09249361470015A7B1 /* Info.plist */,
+			);
+			path = bikehiking;
+			sourceTree = "<group>";
+		};
+		A1F90B11249361470015A7B1 /* bikehikingTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1F90B12249361470015A7B1 /* bikehikingTests.swift */,
+				A1F90B14249361470015A7B1 /* Info.plist */,
+			);
+			path = bikehikingTests;
+			sourceTree = "<group>";
+		};
+		A1F90B1C249361470015A7B1 /* bikehikingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1F90B1D249361470015A7B1 /* bikehikingUITests.swift */,
+				A1F90B1F249361470015A7B1 /* Info.plist */,
+			);
+			path = bikehikingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1F90AF7249361440015A7B1 /* bikehiking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F90B22249361480015A7B1 /* Build configuration list for PBXNativeTarget "bikehiking" */;
+			buildPhases = (
+				A1F90AF4249361440015A7B1 /* Sources */,
+				A1F90AF5249361440015A7B1 /* Frameworks */,
+				A1F90AF6249361440015A7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bikehiking;
+			productName = bikehiking;
+			productReference = A1F90AF8249361440015A7B1 /* bikehiking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1F90B0D249361470015A7B1 /* bikehikingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F90B25249361480015A7B1 /* Build configuration list for PBXNativeTarget "bikehikingTests" */;
+			buildPhases = (
+				A1F90B0A249361470015A7B1 /* Sources */,
+				A1F90B0B249361470015A7B1 /* Frameworks */,
+				A1F90B0C249361470015A7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F90B10249361470015A7B1 /* PBXTargetDependency */,
+			);
+			name = bikehikingTests;
+			productName = bikehikingTests;
+			productReference = A1F90B0E249361470015A7B1 /* bikehikingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1F90B18249361470015A7B1 /* bikehikingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F90B28249361480015A7B1 /* Build configuration list for PBXNativeTarget "bikehikingUITests" */;
+			buildPhases = (
+				A1F90B15249361470015A7B1 /* Sources */,
+				A1F90B16249361470015A7B1 /* Frameworks */,
+				A1F90B17249361470015A7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F90B1B249361470015A7B1 /* PBXTargetDependency */,
+			);
+			name = bikehikingUITests;
+			productName = bikehikingUITests;
+			productReference = A1F90B19249361470015A7B1 /* bikehikingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1F90AF0249361440015A7B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = kpugame;
+				TargetAttributes = {
+					A1F90AF7249361440015A7B1 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					A1F90B0D249361470015A7B1 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = A1F90AF7249361440015A7B1;
+					};
+					A1F90B18249361470015A7B1 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = A1F90AF7249361440015A7B1;
+					};
+				};
+			};
+			buildConfigurationList = A1F90AF3249361440015A7B1 /* Build configuration list for PBXProject "bikehiking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1F90AEF249361440015A7B1;
+			productRefGroup = A1F90AF9249361440015A7B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1F90AF7249361440015A7B1 /* bikehiking */,
+				A1F90B0D249361470015A7B1 /* bikehikingTests */,
+				A1F90B18249361470015A7B1 /* bikehikingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1F90AF6249361440015A7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F90B08249361470015A7B1 /* LaunchScreen.storyboard in Resources */,
+				A1F90B05249361470015A7B1 /* Assets.xcassets in Resources */,
+				A1F90B03249361440015A7B1 /* Main.storyboard in Resources */,
+				A1D53A7024A3F71500B67440 /* particle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F90B0C249361470015A7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F90B17249361470015A7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1F90AF4249361440015A7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F90B00249361440015A7B1 /* ViewController.swift in Sources */,
+				A1D53A6E24A3F3E000B67440 /* stardust.swift in Sources */,
+				A1F90AFC249361440015A7B1 /* AppDelegate.swift in Sources */,
+				A1F90B2E24937C850015A7B1 /* BikeTableViewController.swift in Sources */,
+				A1F90B302493868D0015A7B1 /* BikeDetailTableViewController.swift in Sources */,
+				A1D53A6C24A3CB1A00B67440 /* Weather.swift in Sources */,
+				A1D53A7224A4511000B67440 /* PickViewController.swift in Sources */,
+				A1F90AFE249361440015A7B1 /* SceneDelegate.swift in Sources */,
+				A1D53A6A24A3C50000B67440 /* WeatherViewController.swift in Sources */,
+				A1D53A6824A2C69200B67440 /* searching.swift in Sources */,
+				A1F90B2C24936BDB0015A7B1 /* HikingTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F90B0A249361470015A7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F90B13249361470015A7B1 /* bikehikingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F90B15249361470015A7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F90B1E249361470015A7B1 /* bikehikingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1F90B10249361470015A7B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1F90AF7249361440015A7B1 /* bikehiking */;
+			targetProxy = A1F90B0F249361470015A7B1 /* PBXContainerItemProxy */;
+		};
+		A1F90B1B249361470015A7B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1F90AF7249361440015A7B1 /* bikehiking */;
+			targetProxy = A1F90B1A249361470015A7B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1F90B01249361440015A7B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F90B02249361440015A7B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1F90B06249361470015A7B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F90B07249361470015A7B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1F90B20249361480015A7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1F90B21249361480015A7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1F90B23249361480015A7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7R9Y9G27X;
+				INFOPLIST_FILE = bikehiking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wonbin.bikehiking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1F90B24249361480015A7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7R9Y9G27X;
+				INFOPLIST_FILE = bikehiking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wonbin.bikehiking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1F90B26249361480015A7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7R9Y9G27X;
+				INFOPLIST_FILE = bikehikingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wonbin.bikehikingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bikehiking.app/bikehiking";
+			};
+			name = Debug;
+		};
+		A1F90B27249361480015A7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7R9Y9G27X;
+				INFOPLIST_FILE = bikehikingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wonbin.bikehikingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bikehiking.app/bikehiking";
+			};
+			name = Release;
+		};
+		A1F90B29249361480015A7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7R9Y9G27X;
+				INFOPLIST_FILE = bikehikingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wonbin.bikehikingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bikehiking;
+			};
+			name = Debug;
+		};
+		A1F90B2A249361480015A7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7R9Y9G27X;
+				INFOPLIST_FILE = bikehikingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wonbin.bikehikingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bikehiking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1F90AF3249361440015A7B1 /* Build configuration list for PBXProject "bikehiking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F90B20249361480015A7B1 /* Debug */,
+				A1F90B21249361480015A7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F90B22249361480015A7B1 /* Build configuration list for PBXNativeTarget "bikehiking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F90B23249361480015A7B1 /* Debug */,
+				A1F90B24249361480015A7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F90B25249361480015A7B1 /* Build configuration list for PBXNativeTarget "bikehikingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F90B26249361480015A7B1 /* Debug */,
+				A1F90B27249361480015A7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F90B28249361480015A7B1 /* Build configuration list for PBXNativeTarget "bikehikingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F90B29249361480015A7B1 /* Debug */,
+				A1F90B2A249361480015A7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1F90AF0249361440015A7B1 /* Project object */;
+}
